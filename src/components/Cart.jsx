@@ -27,7 +27,7 @@ const Cart = () => {
   const total = subTotal + tax + shippingCost;
 
   return (
-    <section className="mt-6 p-4 max-xs:mt-4 max-xs:p-0">
+    <section className="mt-6 p-4 max-xs:mt-4 max-xs:p-0 flex-col gap-8">
       {cartItems.length > 0 ? (
         <div className="grid grid-cols-1 gap-4 h-fit">
           {cartItems.map((product) => (
