@@ -83,7 +83,7 @@ const Cart = () => {
           </h1>
         </div>
       )}
-      <section className="fixed  left-0 w-full bg-white p-4 text-lg md:text-2xl lg:text-3xl font-extrabold mt-8">
+      <section className=" w-full bg-white p-4 text-lg md:text-2xl lg:text-3xl font-extrabold mt-8 rounded-lg shadow-md ">
         <div className="text-primary-dark">SubTotal: ${subTotal}</div>
         <div className="text-primary-dark">Tax: ${tax}</div>
         <div className="text-primary-dark">Shipping: ${shippingCost}</div>
