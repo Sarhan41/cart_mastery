@@ -26,7 +26,7 @@ const Home = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 ">
+      <div className="grid grid-cols-1 xs:grid-cols-2 gap-4  ">
         {Products.map((product) => (
           <ProductCard key={product.id} {...product} addbutton={handleClick} />
         ))}

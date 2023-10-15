@@ -2,15 +2,15 @@ import React from "react";
 
 const ProductCard = ({ id, name, image, price , addbutton }) => {
   return (
-    <div className="bg-white rounded-md m-4 overflow-hidden shadow-md lg:w-[30vw] ml-32">
-      <div className="h-[300px] object-cover m-2  ">
+    <div className="bg-white rounded-md m-4 overflow-hidden shadow-md lg:w-[30vw] ml-32 max-xs:ml-12">
+      <div className="h-[300px] max-sm:h-[200px] w-auto object-cover m-2 ">
         <img src={image} alt={name} className="w-full h-full rounded-lg" />
       </div>
-      <div className="p-4 flex flex-row ">
-        <h1 className="text-4xl text-secondary-dark font-young flex-1">
+      <div className="p-4 flex flex-row xs:flex-col md:flex-row">
+        <h1 className="text-4xl max-md:text-2xl text-secondary-dark font-young flex-1">
           {name}
         </h1>
-        <p className="text-2xl text-secondary-dark font-robotoc">${price}</p>
+        <p className="text-2xl max-md:text-base  text-secondary-dark font-robotoc">${price}</p>
       </div>
       <div className="flex-center">
         <button
