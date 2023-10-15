@@ -1,8 +1,23 @@
-# React + Vite
+# Redux Cart Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple cart application built for the sole purpose of understanding the logic and state management of Redux.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application demonstrates the core concepts of managing state using Redux. It includes a shopping cart feature where you can add and remove items. The application calculates the subtotal, tax, and shipping cost, providing a total price for the items in your cart.
+
+## Features
+
+- Add and remove items from the cart.
+- Calculate the subtotal.
+- Apply tax based on a fixed rate.
+- Apply shipping cost based on the cart's total value.
+
+
+## Contact
+
+If you have any questions or feedback, feel free to contact Me:
+
+1. [Email](sp.webdev2024@gmai.com)
+2. [LinkedIn](https://www.linkedin.com/in/sarhan-patel-20241c)
+3. [Twitter](https://twitter.com/SarhanWebDev)
