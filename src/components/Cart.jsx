@@ -27,11 +27,11 @@ const Cart = () => {
   const total = subTotal + tax + shippingCost;
 
   return (
-    <section className="mt-6 p-4">
+    <section className="mt-6 p-4 max-xs:mt-4 max-xs:p-0">
       {cartItems.length > 0 ? (
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-4 h-fit">
           {cartItems.map((product) => (
-            <div key={product.id} className="bg-white p-4 rounded-lg shadow-md">
+            <div key={product.id} className="bg-white p-4 rounded-lg shadow-md overflow-auto">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
                   <div className="h-24 w-24 object-cover">
@@ -83,7 +83,7 @@ const Cart = () => {
           </h1>
         </div>
       )}
-      <section className="fixed bottom-0 left-0 w-full bg-white p-4 text-lg md:text-2xl lg:text-3xl font-extrabold">
+      <section className="fixed  left-0 w-full bg-white p-4 text-lg md:text-2xl lg:text-3xl font-extrabold">
         <div className="text-primary-dark">SubTotal: ${subTotal}</div>
         <div className="text-primary-dark">Tax: ${tax}</div>
         <div className="text-primary-dark">Shipping: ${shippingCost}</div>
